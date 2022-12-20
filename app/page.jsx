@@ -1,7 +1,12 @@
 import React from 'react'
+import Product from './Product'
 
-export default function page() {
+export default function Page() {
     return (
-        <div>page</div>
+        <div>
+            <div className="container">
+                <Product />
+            </div>
+        </div>
     )
 }
